@@ -1,76 +1,30 @@
-Aqui está o README para a **Questão 1: Integração Numérica**:
+<!-- PROJECT_METADATA
+{
+  "title": "Integração Numérica — Trapézio e Simpson",
+  "short_description": "Implementação em Python dos métodos de integração numérica: Regra do Trapézio e Regra de Simpson, com comparação de precisão entre os métodos.",
+  "primary_stack": ["Python", "NumPy", "Matplotlib"],
+  "architecture": "CLI Tool",
+  "detail_description": "Projeto acadêmico de Cálculo Numérico que implementa e compara dois métodos clássicos de integração numérica: Regra do Trapézio e Regra de Simpson. Calcula a aproximação de integrais definidas com análise de precisão e eficiência de cada método. Desenvolvido como trabalho prático da disciplina de Cálculo Numérico — Engenharia de Computação @ UNIVASF."
+}
+-->
 
----
+# Integração Numérica — Trapézio e Simpson
 
-# Questão 1: Integração Numérica
+Implementação em Python de métodos de integração numérica com comparação de precisão.
 
-## Descrição
+## Métodos Implementados
 
-Este repositório contém a solução da **Questão 1** do trabalho, focada em **Integração Numérica**. Nesta questão, utilizamos métodos numéricos para aproximar a solução de integrais definidas, aplicando algoritmos iterativos para calcular a área sob uma curva.
+- **Regra do Trapézio** — aproximação linear por trapézios
+- **Regra de Simpson** — aproximação quadrática (mais precisa)
 
-O objetivo desta questão é obter a aproximação da integral utilizando os seguintes métodos:
+Ambos os métodos são comparados quanto à exatidão e eficiência para diferentes integrais definidas.
 
-- **Método dos Trapézios**
-- **Regra de Simpson**
-
-Cada método é implementado para calcular a área com um determinado nível de precisão e comparado quanto à exatidão e eficiência.
-
-### Imagem da Questão
-
-![Imagem da Questão](docs/Questao1.png)
-
-## Estrutura do Projeto
-
-- **`src/`**: Código-fonte da solução em Python.
-  - `main.py`: Arquivo principal contendo a implementação dos métodos de integração e a visualização dos resultados.
-- **`docs/`**: Documentos de apoio, incluindo a imagem da questão.
-  - `Questao1.png`: Imagem fornecida que descreve a questão.
-
-## Requisitos
-
-Antes de executar o projeto, certifique-se de ter instalado:
-
-- **Python 3.x**
-- Bibliotecas Python:
-  - `numpy`
-  - `matplotlib`
-
-Você pode instalar as bibliotecas necessárias usando o `pip`:
+## Como Executar
 
 ```bash
-pip install numpy matplotlib
+python main.py
 ```
 
-## Como Rodar o Projeto
+## Contexto
 
-Para executar o código da solução, siga os passos abaixo:
-
-1. **Clone este repositório:**
-
-   ```bash
-   git clone https://github.com/Wanjos-eng/CalculoNumerico_IntegracaoNumerica.git
-   ```
-
-2. **Navegue até o diretório do projeto:**
-
-   ```bash
-   cd nome-do-repositorio
-   ```
-
-3. **Instale as dependências necessárias:**
-
-   ```bash
-   pip install numpy matplotlib
-   ```
-
-4. **Execute o script principal:**
-
-   ```bash
-   python src/main.py
-   ```
-
-   Isso irá executar o programa que calcula a integral utilizando os métodos dos trapézios e de Simpson, exibindo os valores aproximados e os gráficos da função.
-
-## Resultados
-
-Ao finalizar a execução, serão exibidos os valores das integrais aproximados pelos métodos dos trapézios e de Simpson. Esses resultados serão comparados, permitindo avaliar qual método oferece maior precisão para a função e intervalo especificados.
+Projeto da disciplina de **Cálculo Numérico** — Engenharia de Computação @ UNIVASF.
